@@ -1,11 +1,7 @@
-# COAV HW1
-First homework for rookie who enters COAV OISLab
+# HW1
+## Requirement 
+This assignment requires one to build a **feedforward neural network (FNN)** to classify the MNIST dataset. The network must have **two hidden layers with 100 and 150 neurons**, and deep-learning libraries such as Pytorch and Tensorflow are not allowed to use.
 
-
-## Instructions
-Compile a feedforward neural network(FNN) model to classify the MNIST dataset. Deep learning package such as Pytorch, Keras and Tensorflow are **PROHIBITED**.
-
-## Requirement
-- A FNN model with **2 hidden layers** and random initialization model **weights** 
-- **100 neurons are required in first layer and 150 neurons are required in second layer**. 
+## Conclusion 
+In this homework, I build the FNN using **Numpy** libraries, and can be view [here](obj.py)
     
