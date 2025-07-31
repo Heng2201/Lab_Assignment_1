@@ -15,9 +15,9 @@ In this assignment, I build the FNN using **Numpy** libraries, which can be view
 
 Next, from this assignment, the accuracy is **inversely proportional** to the batch size when the learning rate is fixed, means that the accuracy will become lower as we keep increasing the batch size. Below shows how accuracy changes with different batch size.
 
-![Result with different batch size](img\img1.png)
+![Result with different batch size](img/img1.png)
     
 Also, for multi layers FNN, if initialize both weights and bias with zeros, the parameters will not be able to update during backpropagation. This is because the derivative of ReLU activation functions will equal to zero, resulting all the derivation will become zero.
 
-![Zero initialization](img\img2.png)
+![Zero initialization](img/img2.png)
     
